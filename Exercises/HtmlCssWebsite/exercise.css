@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: lightblue;
+    #headerTitle {
+        text-align: center;
+        margin-top: 0;
+        padding-top: .25rem;
+    }
+}
+
+#navBar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    a {
+        color: black;
+        margin: 0.5rem;
+    }
+}
+
+#profilePictureSection {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    #profilePicture {
+        border-radius: 75%;
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem;
+    scroll-margin-top: 8rem;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem;
+    scroll-margin-top: 8rem;
+    p {
+        margin: 0.25rem;
+    }
+}
+
+#works {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    img {
+        height: 15rem;
+        width: 20rem;
+        margin: 0.5rem;
+    }
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 1rem;
+    box-shadow: 5px 10px;
+    label {
+        align-self: start;
+        margin: 0.5rem;
+    }
+}
+
+#location {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#submit {
+    margin: 0.5rem;
+    background-color: lightblue;
+    border-radius: 10rem;
+    padding: 0.5rem;
+}
+
+footer {
+    position: relative;
+    padding: 0.5rem;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+}
