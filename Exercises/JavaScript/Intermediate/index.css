@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyContainer {
+    text-align: center;
+}
+
+.fontContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.minus {
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.plus {
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.fontArea {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#changingFont {
+    font-size: 12px;
+}

@@ -8,7 +8,7 @@ console.log(1 + true) //2
 console.log(0 == false) //true
 console.log(1 === true) //false
 console.log(2 == "2") //true
-
+//console.log(4 * 3 + "5" - "3"); "125" - "3" = 122
 // Section 2
 
 let cricketTeamPlayers = ["Adam", "Beth", "Charlie", "David", "Eve", "Frank", "Garrett", "Henry", "Ignacio", "Jack", "Kat"]
@@ -56,7 +56,7 @@ function reverse(string) {
     }
     return reverseString
 }
-console.log(reverse([1,2,3]));
+console.log(reverse('123'));
 
 // Section 4
 let movieObjectsList = [
