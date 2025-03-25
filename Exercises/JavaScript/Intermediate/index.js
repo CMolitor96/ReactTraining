@@ -28,3 +28,11 @@ function changeFontSize(e) {
 
     }
 }
+
+function scheduleReminder(task, delay) {
+    setTimeout(function () {
+        alert(task)
+    }, delay)
+}
+
+scheduleReminder("Hello World", 5000)
