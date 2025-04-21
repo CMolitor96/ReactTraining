@@ -53,3 +53,8 @@ body {
 #changingFont {
     font-size: 12px;
 }
+
+.disabled {
+    background-color: gray;
+    
+}
